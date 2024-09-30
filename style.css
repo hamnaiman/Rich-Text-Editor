@@ -1,0 +1,55 @@
+body {
+    background-image: url(images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-editor-header {
+    background-color: rgb(142, 236, 247);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content {
+    height: 400px;
+    outline: none;
+    overflow: auto;
+}
+
+.card {
+    box-shadow: 0px 0px 17px -1px #000000;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.btn {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #67c5ff;
+    transform: scale(1.1);
+}
+
+.color-palette {
+    display: flex;
+    gap: 5px;
+}
+.h1{
+    color: rgb(12, 12, 35);
+    border-bottom: 2px solid #000000;
+}
+.color-palette div {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #67c5ff;
+}
+
+.font-size-select {
+    margin-left: 10px;
+}
